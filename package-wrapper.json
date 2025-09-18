@@ -1,0 +1,28 @@
+{
+  "name": "notebooklm-wrapper-api",
+  "version": "1.0.0",
+  "description": "NotebookLM Wrapper API pro Make.com integraci",
+  "main": "notebooklm-wrapper-api.js",
+  "scripts": {
+    "start": "node notebooklm-wrapper-api.js",
+    "dev": "nodemon notebooklm-wrapper-api.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@google/generative-ai": "^0.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "notebooklm",
+    "google-ai",
+    "make-com",
+    "api",
+    "wrapper"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
